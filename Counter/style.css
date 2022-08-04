@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.counter {
+    color: gray;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.increase {
+    background-color: green;
+    color: white;
+}
+
+.decrease {
+    background-color: red;
+    color: white;
+}
+
+.reset {
+    background-color:cadetblue;
+}
