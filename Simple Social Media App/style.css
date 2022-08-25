@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+#post-btn {
+    padding: 0.3rem 1rem;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#post-btn:hover {
+    transform: scale(1.05);
+}
+
+.posts > div {
+    background-color: aliceblue;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    min-width: 350px;
+    padding: 0.5rem;
+}
+
+.options {
+    display: flex;
+    gap: 0.7rem;
+}
+
+i {
+    cursor: pointer;
+}
+
+#msg {
+    color: red;
+    margin-bottom: 0.5rem;
+}
